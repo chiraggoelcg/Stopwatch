@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+</head>
+<style>
+    body{
+        background-color: black;
+        color: #df6e3c;
+        text-align: center;
+        font-size: 120px;
+        padding-top: 45px;
+    }
+    #lap{
+        color: white;
+        display: inline;
+        height: 130px;
+        width: 130px;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-right: 200px;
+        text-align: center;
+        font-size: 25px;
+        background-color: #353535;
+
+    }
+    #start{
+
+        color: aquamarine;
+        display: inline;
+        height: 130px;
+        width: 130px;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-left: 200px;
+        text-align: center;
+        font-size: 30px;
+        background-color: green;
+
+    }
+    .laps{
+        color: white;
+        font-size: 25px;
+    }
+    .lap1{
+        margin-right: 250px;
+    }
+    .lap2{
+        margin-left: 250px;
+    }
+    .hr{
+        width: 50%;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+</style>
+<body>
+    <div class="container">
+        <label id="timer"></label><br>
+        <button id="lap">Reset</button>
+        <button id="start">Start</button>
+        <br>
+        <div id="lapss"></div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
